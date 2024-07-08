@@ -2,7 +2,6 @@
 # Mimir Scanner
 
 
-**mimir**
 ░▒▓██████████████▓▒░░▒▓█▓▒░▒▓██████████████▓▒░░▒▓█▓▒░▒▓███████▓▒░       
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
@@ -11,12 +10,11 @@
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
 
-- [Overview](#initial-scan-with-all-options)
-- [Features](#aggressive-scan-with-web-against-existing-results)
-- [Requirements](#multiple-nmap-scan-types)
-- [Installation on Ubuntu EC2](#initial-scan-with-all-options)
-- [Usage](#aggressive-scan-with-web-against-existing-results)
-- [Multiple Nmap Scan Types](#multiple-nmap-scan-types)
+- [Overview](#Overview)
+- [Features](#Features)
+- [Requirements](#Requirements)
+- [Installation on Ubuntu EC2](#Installation-on-Ubuntu-EC2)
+- [Usage](#Usage)
 
 # Overview
 
