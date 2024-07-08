@@ -121,6 +121,7 @@ The scanner consolidates findings from all scans into a comprehensive report, hi
 - **Additional Scans**: Integrate more scanning tools and scripts to generate more leads for testers to check manually.
 - **Automated Remediation Suggestions**: Provide guidance on fixing identified vulnerabilities.
 - **Proxycannon implementation** implement a terraform component to spin up micro instances and routing for network load balancing and IDS/WAF evasion.
+- **API to feed results into ML models/AI/`<insert buzzword here>`
 
 ## Contribution
 
