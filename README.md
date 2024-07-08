@@ -84,7 +84,7 @@ python3 main.py client_name targets.txt --initial_scan --web --ssl --nmap-all --
 If Rustscan results already exist, run specified scans against these results by omitting the `--initial_scan` flag:
 
 ```sh
-python3 main.py client_name targets.txt --web --ssl --nmap-aggressive --report-file report.json
+python3 main.py client_name --target-file targets.txt --web --ssl --nmap-aggressive --report-file report.json
 ```
 
 ### Full Scan with All Options
@@ -92,15 +92,15 @@ python3 main.py client_name targets.txt --web --ssl --nmap-aggressive --report-f
 Run a full scan with all available options:
 
 ```sh
-python3 main.py client_name targets.txt --initial_scan --web --ssl --nmap-all --report-file report.json
+python3 main.py client_name --target-file targets.txt --initial_scan --web --ssl --nmap-all --report-file report.json
 ```
 
-### Aggressive Scan with Web Scanning Against Existing Results
+### Aggressive Scan with Web Scanning Against Single Host
 
 Perform an aggressive and comprehensive Nmap scan and web scans against existing Rustscan results:
 
 ```sh
-python3 main.py client_name targets.txt --initial_scan --web --ssl --nmap-aggresive --nmap-comprehensive --report-file report.json
+python3 main.py client_name hostname.com.au --initial_scan --web --ssl --nmap-aggresive --nmap-comprehensive --report-file report.json
 ```
 
 ### Stealth Scan with SSL Scanning
@@ -108,7 +108,7 @@ python3 main.py client_name targets.txt --initial_scan --web --ssl --nmap-aggres
 Perform a stealth Nmap scan and SSL scans:
 
 ```sh
-python3 main.py client_name targets.txt --ssl --nmap-stealth --report-file report.json
+python3 main.py client_name --target-file targets.txt --ssl --nmap-stealth --report-file report.json
 ```
 
 ## Reporting
