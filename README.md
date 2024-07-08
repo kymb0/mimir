@@ -37,38 +37,33 @@ Mimir Scanner is a comprehensive scanning tool designed to perform an initial sw
 
 ## Installation on Ubuntu EC2
 
-1. **Install Python 3 and pip**:
-
-```sh
-sudo apt install python3 python3-pip -y
-```
-
-2. **Install Rustscan**:
+1. **Install Rustscan**:
 
 ```sh
 sudo snap install rustscan
 ```
 
-3. **Install Nmap, Nikto, and SSLScan**:
+2. **Install Nmap, Nikto, and SSLScan**:
 
 ```sh
 sudo apt install nmap nikto sslscan -y
 ```
 
-4. **Install Python Dependencies**:
+3. **Install Python Dependencies**:
 
 ```sh
+sudo apt install python3-full
 sudo apt install python3-pip3 aiofiles
 sudo apt install python3-pip3 rich
 ```
-5. Install GOlang and set PATH
+4. Install GOlang and set PATH
 
 ```sh
 wget https://golang.org/dl/go1.20.5.linux-amd64.tar.gz && sudo tar -C /usr/local -xzf go1.20.5.linux-amd64.tar.gz && echo -e '\n# Go environment variables\nexport GOROOT=/usr/local/go\nexport GOPATH=$HOME/go\nexport PATH=$PATH:$GOROOT/bin:$GOPATH/bin' >> ~/.bashrc && source ~/.bashrc && go version
 
 ```
 
-6. Install Nuclei
+5. Install Nuclei
 
 ```sh
 go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
