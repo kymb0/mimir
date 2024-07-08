@@ -10,8 +10,13 @@
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
 ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      
-                                                                     
 
+- [Overview](#initial-scan-with-all-options)
+- [Features](#aggressive-scan-with-web-against-existing-results)
+- [Requirements](#multiple-nmap-scan-types)
+- [Installation on Ubuntu EC2](#initial-scan-with-all-options)
+- [Usage](#aggressive-scan-with-web-against-existing-results)
+- [Multiple Nmap Scan Types](#multiple-nmap-scan-types)
 
 # Overview
 
@@ -30,11 +35,6 @@ Mimir Scanner is a comprehensive scanning tool designed to perform an initial sw
 - aiofiles
 - rich
 
-### Installing Dependencies
-
-```sh
-pip install aiofiles rich
-```
 
 ## Installation on Ubuntu EC2
 
