@@ -53,8 +53,8 @@ sudo apt install nmap nikto sslscan -y
 
 ```sh
 sudo apt install python3-full
-sudo apt install python3-pip3 aiofiles
-sudo apt install python3-pip3 rich
+sudo apt install python3-aiofiles
+sudo apt install python3-rich
 ```
 4. Install GOlang and set PATH
 
