@@ -118,8 +118,9 @@ The scanner consolidates findings from all scans into a comprehensive report, hi
 ## Future Plans
 
 - **Enhanced Reporting**: Include more detailed analysis and visualization options.
-- **Additional Scans**: Integrate more scanning tools and scripts for a wider range of assessments.
+- **Additional Scans**: Integrate more scanning tools and scripts to generate more leads for testers to check manually.
 - **Automated Remediation Suggestions**: Provide guidance on fixing identified vulnerabilities.
+- **Proxycannon implementation** implement a terraform component to spin up micro instances and routing for network load balancing and IDS/WAF evasion.
 
 ## Contribution
 
