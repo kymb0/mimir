@@ -117,6 +117,7 @@ The scanner consolidates findings from all scans into a comprehensive report, hi
 
 ## Future Plans
 
+- **Implement IONIZE Web Scan Tool**: Implement our web scanner tool to replace redundant functions 
 - **Enhanced Reporting**: Include more detailed analysis and visualization options.
 - **Additional Scans**: Integrate more scanning tools and scripts to generate more leads for testers to check manually.
 - **Automated Remediation Suggestions**: Provide guidance on fixing identified vulnerabilities.
